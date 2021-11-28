@@ -1,19 +1,12 @@
 section-team {
   background-color: #f5f4fa;
   padding: 94px 15px;
-
-  /* margin: 0 15px; */
 }
-
 .section-team-list {
   display: flex;
-  /* width: 270px; */
-  /* height: 368px; */
   padding: 0;
   margin-right: -30px;
-  /* justify-content: center; */
 }
-
 .section-team-list-li {
   background-color: #ffffff;
   margin-right: 30px;
@@ -24,7 +17,6 @@ section-team {
 }
 .section-team-list img {
   max-width: none;
-  /* padding: 60 px 0; */
 }
 
 .section-team .title {
@@ -42,23 +34,18 @@ section-team {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
-/* posilanya na socseti */
 .section-team-list-li ul {
   display: flex;
   margin-top: 16px;
   padding: 0;
 }
-
 .icon-team-list:not(:last-child) {
   margin-right: 10px;
 }
-
 .icon-team-link {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding-top: 12px; */
-
   width: 44px;
   height: 44px;
   background-color: inherit;
@@ -66,22 +53,19 @@ section-team {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 35px;
+  &:hover,
+  &:focus {
+    color: #fff;
+    background-color: var(--accent-color);
+    border-radius: 35px;
+    cursor: pointer;
+  }
 }
-
 .icon-team {
   width: 20px;
   height: 20px;
   fill: currentColor;
 }
-
-.icon-team-link:hover,
-.icon-team-link:focus {
-  color: #fff;
-  background-color: var(--accent-color);
-  border-radius: 35px;
-  cursor: pointer;
-}
-
 .container-team-li {
   padding: 30px 32px;
   background: #fff;

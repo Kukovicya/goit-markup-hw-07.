@@ -6,25 +6,19 @@
   text-align: center;
   letter-spacing: 0.03em;
 }
-/* СПИСОК ПРИИМУЩЕСТВ */
 .section-work {
   padding-bottom: 94px;
 }
-
 .section-work-list {
-  /* position: relative; */
   display: flex;
   padding: 0;
-  /* justify-content: center; */
 }
 .section-work-list li:not(:last-child) {
   margin-right: 30px;
 }
-
 .section-work-list li {
   position: relative;
 }
-
 .we-doing-meta {
   position: absolute;
   bottom: 0%;
@@ -34,7 +28,6 @@
   text-align: center;
   background-color: rgba(47, 48, 58, 0.8);
   padding: 27px 0;
-
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -43,8 +36,6 @@
   color: #fff;
   z-index: 9999;
 }
-
-/* настуана секция з окмандою--------------------------------- */
 .section-advantage .title {
   font-weight: bold;
   font-size: 14px;

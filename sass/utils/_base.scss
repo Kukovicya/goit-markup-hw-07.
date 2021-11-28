@@ -1,13 +1,11 @@
 html {
   box-sizing: border-box;
 }
-
 *,
 *::before,
 *::after {
   box-sizing: inherit;
 }
-
 h1,
 h2,
 h3,
@@ -28,7 +26,6 @@ img {
   margin: 0 auto;
   width: 1200px;
   padding: 0 15px;
-  /* outline: 2px solid tomato; */
 }
 header {
   background-color: #ffffff;

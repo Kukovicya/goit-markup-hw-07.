@@ -17,9 +17,7 @@
   min-height: 581px;
   background-color: #fff;
   border-radius: 10px;
-  /* padding: 40px; */
 }
-
 .modal-input {
   margin: 40px;
 }
@@ -37,18 +35,14 @@
   background-color: transparent;
   cursor: pointer;
   padding: 0;
-}
-.modal-btn:hover,
-.modal-btn:focus {
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 .modal-close {
   fill: currentColor;
 }
-/* .modal-close:hover,
-.modal-close:focus {
-  fill: var(--accent-color);
-} */
 .is-hidden {
   visibility: none;
   opacity: 0;
